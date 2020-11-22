@@ -1,0 +1,28 @@
+.RightNav {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.profileIcon > div {
+  background-color: blueviolet;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  height: 20px;
+  width: 14px;
+}
+
+.create {
+  flex-grow: 1;
+}
+.youTubeApps {
+  flex-grow: 1;
+}
+.notifications {
+  flex-grow: 1;
+}
+.profileIcon {
+  flex-grow: 1;
+}

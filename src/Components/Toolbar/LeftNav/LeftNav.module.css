@@ -1,0 +1,21 @@
+.LeftNav {
+  width: 250px;
+  display: flex;
+}
+
+.menu{
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homePageIcon {   
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homePageIcon > img {
+  width: 70%;
+}
