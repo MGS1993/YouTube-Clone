@@ -1,0 +1,32 @@
+.VQWrapper {
+  margin-bottom: 6px;
+  display: flex;
+  flex-direction: row;
+  height:121px;
+}
+.VQImage {
+  /* height: 80%; */
+  width: 55%;
+}
+.image {
+  height: 100%;
+}
+.VQMiscInfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  height: 62%
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.channelName {
+  color: grey;
+}
+.viewsMisc {
+  color: grey;
+  font-weight: 500;
+}

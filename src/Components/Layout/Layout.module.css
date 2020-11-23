@@ -5,7 +5,7 @@
 }
 
 .mainContent {
-  margin: 0 5%;
+  margin: 0 1% 0% 5%;
   flex-grow: 1;
 }
 
@@ -13,15 +13,111 @@
 .thumbNails {
   flex-basis: 20%;
   min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
 }
 
 .videoContent {
   display: flex;
   /* width: 100%; */
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .videoContent > iframe {
   margin: auto;
   /* width: 100%; */
 }
+
+.videoTitle {
+  margin-left: 4%;
+  font-size: 18px;
+  margin-bottom: 12px;;
+}
+
+.miscVideoInfo {
+  height: 70px;
+}
+
+.misc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 35px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.miscIconWrapper {
+  height: 90px;
+}
+
+.viewInfo {
+  margin-left: 4%;
+}
+
+
+.channelInfo {
+  height:180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.topInfo {
+  flex-grow:1;
+
+}
+
+.bottomInfo {
+  flex-grow:1.5;
+}
+.topLeftWrapper {
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+}
+.channelIcon {
+  border-radius: 46px;
+  display: inline-block;
+  height: 75%;
+}
+.channelName {
+  flex-basis: 30%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.channelIconWrapper {
+  flex-basis: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subCount {
+  color: gray;
+  font-size: 13px;
+
+}
+
+.subButtonWrapper {
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+}
+
+
+.subButtonWrapper > button {
+  border: 0px;
+  color: white;
+  background-color: #f73232;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
