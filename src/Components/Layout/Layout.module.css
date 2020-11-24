@@ -1,7 +1,7 @@
 .contentWrapper {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  
 }
 
 .mainContent {
@@ -37,7 +37,7 @@
 }
 
 .miscVideoInfo {
-  height: 70px;
+  /* height: 70px; */
 }
 
 .misc {
@@ -59,7 +59,7 @@
 
 
 .channelInfo {
-  height:180px;
+  /* height:180px; */
   display: flex;
   flex-direction: column;
 }
@@ -71,6 +71,8 @@
 
 .bottomInfo {
   flex-grow:1.5;
+  overflow: hidden;
+  padding: 10px 10%;
 }
 .topLeftWrapper {
   display: inline-block;
@@ -121,3 +123,20 @@
   border-radius: 2px;
 }
 
+.show {
+  padding: 10px 10%;
+  color: #888888;
+}
+.commentHeaderChildDiv {
+  display: flex;
+  margin: 25px 0;
+}
+  .firstP {
+    margin-right: 25px;
+  }
+  .secondP {
+    color: #7b7979;
+  }
+/* .commentHeader {
+  display: inline-block
+} */
